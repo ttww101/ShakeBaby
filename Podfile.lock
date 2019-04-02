@@ -1,21 +1,57 @@
 PODS:
+  - AVOSCloud (11.4.9)
+  - AVOSCloudIM (11.4.9):
+    - AVOSCloud (= 11.4.9)
+    - AVOSCloudIM/_ARC (= 11.4.9)
+    - AVOSCloudIM/_NOARC (= 11.4.9)
+  - AVOSCloudIM/_ARC (11.4.9):
+    - AVOSCloud (= 11.4.9)
+    - AVOSCloudIM/_NOARC (= 11.4.9)
+  - AVOSCloudIM/_NOARC (11.4.9):
+    - AVOSCloud (= 11.4.9)
   - Hex (5.0.1)
+  - JAnalytics (1.2.1):
+    - JCore (~> 1.2.0)
+  - JCore (1.2.6)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
   - NVActivityIndicatorView (3.6.1)
   - SCLAlertView (0.7.0)
-  - UIView+Shake (1.3.0)
+  - "UIView+Shake (1.3.0)"
 
 DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudIM
   - Hex
+  - JAnalytics
+  - JPush
   - NVActivityIndicatorView
   - SCLAlertView
-  - UIView+Shake
+  - "UIView+Shake"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AVOSCloud
+    - AVOSCloudIM
+    - Hex
+    - JAnalytics
+    - JCore
+    - JPush
+    - NVActivityIndicatorView
+    - SCLAlertView
+    - "UIView+Shake"
 
 SPEC CHECKSUMS:
+  AVOSCloud: 1ad969db6e24c41ae1788d68698255d853883069
+  AVOSCloudIM: 712144be9ee5428c0bf895cf65954a0791b8364b
   Hex: 2c757d81a2b4b6afc842458ce485c8c097ea1c79
+  JAnalytics: a65f716b383ad470aacd63a7af1984746cc3e06f
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
   NVActivityIndicatorView: 9f52a7f84bf5c6a798722c450fe3c198e01c56ed
   SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
-  UIView+Shake: 3ccbf966d40a76ea2cdbdd48d8219d322d5df5f5
+  "UIView+Shake": 3ccbf966d40a76ea2cdbdd48d8219d322d5df5f5
 
-PODFILE CHECKSUM: 7535815941923d9edf5c2f0d8bcb389f9547e57e
+PODFILE CHECKSUM: ad8b049d6ab104a8e07e0ebfbece817426c133f2
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3

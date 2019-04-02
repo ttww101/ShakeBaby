@@ -10,5 +10,9 @@ target 'ShakeBaby' do
   pod 'UIView+Shake'
   pod 'SCLAlertView'
   pod 'NVActivityIndicatorView'
+  pod 'AVOSCloud'
+  pod 'AVOSCloudIM'
+  pod 'JPush'
+  pod 'JAnalytics'
 
 end

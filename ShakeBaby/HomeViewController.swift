@@ -46,8 +46,12 @@ class HomeViewController: BaseViewController {
 
         Game.isSingleGame = false
 
-        goToPage(storyboardName: Storyboard.connection,
-                 controllerName: Controller.connection)
+//        goToPage(storyboardName: Storyboard.connection,
+//                 controllerName: Controller.connection)
+        
+        let alert = UIAlertController(title: "系統提示", message: "多Coming Soon...", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
 
     @IBAction func introduceGame(_ sender: Any) {

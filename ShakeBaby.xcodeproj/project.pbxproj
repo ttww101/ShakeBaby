@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		63B3E74725855C40582EC9E1 /* Pods_ShakeBaby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE8460366F6D4ED4AD655C1 /* Pods_ShakeBaby.framework */; };
+		9414CCE7221A7D040059893C /* AVOSKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9414CCE6221A7D040059893C /* AVOSKey.swift */; };
+		9414CCE9221A7D1F0059893C /* JPushKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9414CCE8221A7D1F0059893C /* JPushKey.swift */; };
+		9414CD22221A8D370059893C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414CD13221A8D370059893C /* Reachability.m */; };
+		9414CD23221A8D370059893C /* ADWKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9414CD14221A8D370059893C /* ADWKWebViewController.xib */; };
+		9414CD24221A8D370059893C /* ADWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9414CD16221A8D370059893C /* ADWebViewController.xib */; };
+		9414CD25221A8D370059893C /* NoNet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9414CD19221A8D370059893C /* NoNet.png */; };
+		9414CD26221A8D370059893C /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9414CD1A221A8D370059893C /* aa.png */; };
+		9414CD27221A8D370059893C /* ee.png in Resources */ = {isa = PBXBuildFile; fileRef = 9414CD1B221A8D370059893C /* ee.png */; };
+		9414CD28221A8D370059893C /* dd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9414CD1C221A8D370059893C /* dd.png */; };
+		9414CD29221A8D370059893C /* bb.png in Resources */ = {isa = PBXBuildFile; fileRef = 9414CD1D221A8D370059893C /* bb.png */; };
+		9414CD2A221A8D370059893C /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 9414CD1E221A8D370059893C /* cc.png */; };
+		9414CD2B221A8D370059893C /* ADWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414CD20221A8D370059893C /* ADWKWebViewController.m */; };
+		9414CD2C221A8D370059893C /* ADWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414CD21221A8D370059893C /* ADWebViewController.m */; };
 		9B2B1D0F1EEBEC1900F7323A /* GroupResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B1D0D1EEBEC1900F7323A /* GroupResultTableViewCell.swift */; };
 		9B2B1D101EEBEC1900F7323A /* GroupResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B1D0E1EEBEC1900F7323A /* GroupResultTableViewCell.xib */; };
 		B01A84F31EEB8A2200AD2BD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A84F21EEB8A2200AD2BD0 /* AppDelegate.swift */; };
@@ -31,6 +44,23 @@
 /* Begin PBXFileReference section */
 		4A13115AC97DB00E5251F2A5 /* Pods-ShakeBaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeBaby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeBaby/Pods-ShakeBaby.debug.xcconfig"; sourceTree = "<group>"; };
 		8EE8460366F6D4ED4AD655C1 /* Pods_ShakeBaby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeBaby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9414CCE6221A7D040059893C /* AVOSKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVOSKey.swift; sourceTree = "<group>"; };
+		9414CCE8221A7D1F0059893C /* JPushKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPushKey.swift; sourceTree = "<group>"; };
+		9414CCEA221A8BDD0059893C /* ShakeBaby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShakeBaby-Bridging-Header.h"; sourceTree = "<group>"; };
+		9414CD13221A8D370059893C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9414CD14221A8D370059893C /* ADWKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADWKWebViewController.xib; sourceTree = "<group>"; };
+		9414CD15221A8D370059893C /* ADWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWebViewController.h; sourceTree = "<group>"; };
+		9414CD16221A8D370059893C /* ADWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADWebViewController.xib; sourceTree = "<group>"; };
+		9414CD17221A8D370059893C /* ADWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWKWebViewController.h; sourceTree = "<group>"; };
+		9414CD19221A8D370059893C /* NoNet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoNet.png; sourceTree = "<group>"; };
+		9414CD1A221A8D370059893C /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
+		9414CD1B221A8D370059893C /* ee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ee.png; sourceTree = "<group>"; };
+		9414CD1C221A8D370059893C /* dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dd.png; sourceTree = "<group>"; };
+		9414CD1D221A8D370059893C /* bb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bb.png; sourceTree = "<group>"; };
+		9414CD1E221A8D370059893C /* cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc.png; sourceTree = "<group>"; };
+		9414CD1F221A8D370059893C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9414CD20221A8D370059893C /* ADWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWKWebViewController.m; sourceTree = "<group>"; };
+		9414CD21221A8D370059893C /* ADWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWebViewController.m; sourceTree = "<group>"; };
 		9B2B1D0D1EEBEC1900F7323A /* GroupResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupResultTableViewCell.swift; sourceTree = "<group>"; };
 		9B2B1D0E1EEBEC1900F7323A /* GroupResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupResultTableViewCell.xib; sourceTree = "<group>"; };
 		B01A84EF1EEB8A2200AD2BD0 /* ShakeBaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeBaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +113,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9414CCE5221A7CD60059893C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9414CCE6221A7D040059893C /* AVOSKey.swift */,
+				9414CCE8221A7D1F0059893C /* JPushKey.swift */,
+				9414CCEA221A8BDD0059893C /* ShakeBaby-Bridging-Header.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9414CD12221A8D370059893C /* ADWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9414CD13221A8D370059893C /* Reachability.m */,
+				9414CD14221A8D370059893C /* ADWKWebViewController.xib */,
+				9414CD15221A8D370059893C /* ADWebViewController.h */,
+				9414CD16221A8D370059893C /* ADWebViewController.xib */,
+				9414CD17221A8D370059893C /* ADWKWebViewController.h */,
+				9414CD18221A8D370059893C /* TabarImage */,
+				9414CD1F221A8D370059893C /* Reachability.h */,
+				9414CD20221A8D370059893C /* ADWKWebViewController.m */,
+				9414CD21221A8D370059893C /* ADWebViewController.m */,
+			);
+			path = ADWebViewController;
+			sourceTree = "<group>";
+		};
+		9414CD18221A8D370059893C /* TabarImage */ = {
+			isa = PBXGroup;
+			children = (
+				9414CD19221A8D370059893C /* NoNet.png */,
+				9414CD1A221A8D370059893C /* aa.png */,
+				9414CD1B221A8D370059893C /* ee.png */,
+				9414CD1C221A8D370059893C /* dd.png */,
+				9414CD1D221A8D370059893C /* bb.png */,
+				9414CD1E221A8D370059893C /* cc.png */,
+			);
+			path = TabarImage;
+			sourceTree = "<group>";
+		};
 		B01A84E61EEB8A2200AD2BD0 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +173,8 @@
 		B01A84F11EEB8A2200AD2BD0 /* ShakeBaby */ = {
 			isa = PBXGroup;
 			children = (
+				9414CD12221A8D370059893C /* ADWebViewController */,
+				9414CCE5221A7CD60059893C /* Model */,
 				B01A84F21EEB8A2200AD2BD0 /* AppDelegate.swift */,
 				B01A852C1EEBB85100AD2BD0 /* Constant.swift */,
 				B024F3C01EECF4760083BDB5 /* LoadingIndicator.swift */,
@@ -179,7 +250,6 @@
 				B01A84EC1EEB8A2200AD2BD0 /* Frameworks */,
 				B01A84ED1EEB8A2200AD2BD0 /* Resources */,
 				F69196BBBF74FA679228A22C /* [CP] Embed Pods Frameworks */,
-				69D7893483E910F11A089439 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,14 +300,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9414CD27221A8D370059893C /* ee.png in Resources */,
+				9414CD23221A8D370059893C /* ADWKWebViewController.xib in Resources */,
 				B01A85071EEB8DBB00AD2BD0 /* Home.storyboard in Resources */,
 				B01A85151EEB92FD00AD2BD0 /* GroupResult.storyboard in Resources */,
 				B01A84FD1EEB8A2200AD2BD0 /* LaunchScreen.storyboard in Resources */,
 				B01A84FA1EEB8A2200AD2BD0 /* Assets.xcassets in Resources */,
 				9B2B1D101EEBEC1900F7323A /* GroupResultTableViewCell.xib in Resources */,
 				B01A85131EEB92AE00AD2BD0 /* Shaking.storyboard in Resources */,
+				9414CD26221A8D370059893C /* aa.png in Resources */,
 				B01A85191EEB939800AD2BD0 /* Connection.storyboard in Resources */,
+				9414CD29221A8D370059893C /* bb.png in Resources */,
+				9414CD24221A8D370059893C /* ADWebViewController.xib in Resources */,
+				9414CD28221A8D370059893C /* dd.png in Resources */,
+				9414CD25221A8D370059893C /* NoNet.png in Resources */,
 				B01A85111EEB928A00AD2BD0 /* PersonalResult.storyboard in Resources */,
+				9414CD2A221A8D370059893C /* cc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,28 +328,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShakeBaby-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		69D7893483E910F11A089439 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShakeBaby/Pods-ShakeBaby-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F69196BBBF74FA679228A22C /* [CP] Embed Pods Frameworks */ = {
@@ -280,9 +346,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShakeBaby/Pods-ShakeBaby-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloudIM/AVOSCloudIM.framework",
+				"${BUILT_PRODUCTS_DIR}/Hex/Hex.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/UIView+Shake/UIView_Shake.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloudIM.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hex.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIView_Shake.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -296,16 +375,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9414CD22221A8D370059893C /* Reachability.m in Sources */,
 				B01A84F31EEB8A2200AD2BD0 /* AppDelegate.swift in Sources */,
 				B01A85231EEB941D00AD2BD0 /* PersonalResultViewController.swift in Sources */,
 				B024F3C11EECF4760083BDB5 /* LoadingIndicator.swift in Sources */,
+				9414CD2B221A8D370059893C /* ADWKWebViewController.m in Sources */,
 				9B2B1D0F1EEBEC1900F7323A /* GroupResultTableViewCell.swift in Sources */,
+				9414CCE9221A7D1F0059893C /* JPushKey.swift in Sources */,
 				B01A852D1EEBB85100AD2BD0 /* Constant.swift in Sources */,
+				9414CCE7221A7D040059893C /* AVOSKey.swift in Sources */,
 				B01A85251EEB942E00AD2BD0 /* GroupResultViewController.swift in Sources */,
 				B01A85361EEBE82700AD2BD0 /* BaseViewController.swift in Sources */,
 				B01A85051EEB8DA200AD2BD0 /* HomeViewController.swift in Sources */,
 				B01A851D1EEB93E800AD2BD0 /* ConnectionViewController.swift in Sources */,
 				B01A85211EEB940900AD2BD0 /* ShakingViewController.swift in Sources */,
+				9414CD2C221A8D370059893C /* ADWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +511,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.universalcamp.ShakeBaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShakeBaby/ShakeBaby-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -442,6 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.universalcamp.ShakeBaby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShakeBaby/ShakeBaby-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
